@@ -1,0 +1,123 @@
+body{
+   background-image: linear-gradient(#00000096, #00000000), url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 135px;
+
+}
+nav img{
+    /* margin-top: -20px; */
+    width: 140px;
+
+}
+.btn{
+    display: flex;
+}
+nav button{
+    width: 83px;
+    font-size: 17px;
+    height: 35px;
+}
+.eng{
+    
+    background: transparent;
+    color:white;
+    border: 1px solid;
+    border-radius: 8px;
+
+
+}
+.btn.eng:hover{
+    background-color: transparent;
+}
+.sign{
+    background: red;
+    border-radius: 8px;
+    color: white;
+
+}
+.main{
+    text-align: center;
+    font-size:xx-large;
+    font-size:large;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 22px;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 25px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 26px;border: none;
+}
+.main input{
+    width: 261px;
+    height: 31px
+}
+.main button{
+    height: 38px;
+    background: red;
+}
+
+.first{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin-top: 160px;
+    padding: 66px;
+    border-top: 4px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 27px;
+}
+.first img{
+    width: 44%;
+
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 26px;
+    margin-left: 26%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border: 4px solid gray;
+    margin-top: 53px;
+
+}
+ 
